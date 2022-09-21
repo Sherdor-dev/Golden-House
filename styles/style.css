@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* Header styles start */
+
+header{
+    width: 100%;
+    background-color:  rgba(49, 100, 153, 0.1);
+    box-shadow: 0 4px 2px -2px gray;
+}
+nav{
+    background-color:   #ffffff;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    margin: 0px 25px;
+    background-color: #ffffff;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo>h2{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+.nav-logo>img{
+    width: 40px;
+    height: 35px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+.nav-btn, .head-btn{
+    padding: 10px 20px;
+    background-color: #316499;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px 0px;
+}
+.nav-btn:active{
+    border: 2px solid #316499;
+    background-color: #fff;
+    color: #316499;
+}
+
+.head-btn:active{
+    border: 2px solid #316499;
+    background-color: #fff;
+    color: #316499;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:  100%;
+    padding: 60px;
+}
+.header-section-title{
+    padding-top: 35px;
+}
+.header-section-title>h1{
+    font-size: 55px;
+}
+.header-section-title>p{
+    color: grey;
+    margin: 35px 0px;
+}
+
+/* Header styles end */
+
+/* Services styles start */
+.services{
+    width: 100%;
+    margin: 100px 0px;   
+}
+.services-section{
+    display: flex;
+    justify-content: space-between;
+}
+.services-title>h2{
+    text-align: center;
+    font-size: 40px;
+    color: #316499;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+.services-cards{
+    text-align: center;
+    width: 400px;
+    height: 420px;
+    padding-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.services-cards>img{
+    border: 2px solid #316499;
+    padding: 35px;
+    border-radius: 50%;
+}
+.services-cards>h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.services-cards>p{
+    color: #555555;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+.services-cards>a{
+    color: #316499;
+    font-weight: 500;
+}
+
+/* Services styles end */
+
+/* Properties styles start */
+.properties{
+    margin-bottom: 100px;
+}
+.properties-section{
+    display: flex;
+    justify-content: space-between;
+}
+.properties-title>h2{
+    text-align: center;
+    font-size: 40px;
+    color: #316499;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+.properties-cards{
+    width: 330px;
+    height: 350px;
+    border: 1px solid #BDBDBD;
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 15px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.properties-cards>img{
+    height: 200px;
+    width: 300px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.location>h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+.location>img{
+    width: 15px;
+    height: 20px;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+}
+.more>a{
+    font-size: 17px;
+    font-weight: 600;
+    color: #316499;
+}
+.more>img{
+    width: 28px;
+    height: 26px;
+}
+.properties-btn{
+    text-align: center;
+}
+.properties-btn:hover{
+    color: #203e5f;
+}
+.properties-btn>button{
+    padding: 10px 65px;
+    border: 2px solid #316499;
+    border-radius: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #316499;
+}
+
+/* Properties styles end */
+
+
+/* Blog styles start */
+.blog{
+    margin-bottom: 100px;
+}
+.blog-title>h2{
+    text-align: center;
+    font-size: 40px;
+    color: #316499;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+.blog-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.blog-cards{
+    width: 530px;
+    height: 650px;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.blog-cards>img{
+    width: 529px;
+    height: 330px;
+}
+
+.blog-cards-text{
+    margin-left: 20px;
+}
+
+.blog-cards-text>h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+.blog-cards-text>p{
+    font-size: 17px;
+    font-weight: 500;
+    color:  grey;
+}
+.blog-cards-text>a{
+    font-size: 25px;
+    color: #316499;
+}
+/* Blog styles end */
+
+/* Clients styles start */
+.clients{
+    margin-bottom: 100px;
+}
+.clients-section-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.clients-section-title>h2{
+    text-align: center;
+    font-size: 40px;
+    color: #316499;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+.clients-cards{
+    width: 350px;
+    height: 450px;
+    background-color:#F9FAFC;
+    padding-top: 30px;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0 4px 2px -2px gray;
+    text-align: center;
+}
+.clients-cards:hover{
+    background: #EBEBEB;
+
+}
+.clients-cards>h3{
+    font-size: 25px;
+    font-weight: 500;
+    opacity: 0.7;
+    margin: 14px 0px;
+}
+.clients-cards>p{
+    color: #555555;
+}
+.clients-stars{
+    margin-bottom: 15px;
+}
+/* Clients styles end */
+
+/* Footer styles start */
+footer{
+    width: 100%;
+    background-color: #316499;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: #316499;
+    color: #EBEBEB;
+}
+.footer-section-title>h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+.footer-section-list>h3{
+    font-size: 28px;
+    font-weight: 400;
+}
+.footer-section-list>p{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.footer-section-list>.adress, .phone, .email{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.adress>img{
+    width: 25px;
+    height: 25px;
+}
+.phone>img{
+    width: 25px;
+    height: 20px;
+}
+.email>img{
+    width: 25px;
+    height: 20px;
+}
+/* Footer styles end */
